@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'alien';
+    src: url('fontes2/Alien\ Energy.ttf') format('truetype')
+}
+
+:root {
+    --cor0: #025f45;
+    --cor1: #015041;
+    --cor2: #024b4b;
+    --cor3: #012E40;
+    --cor4: #011526;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, black, var(--cor4), var(--cor3), var(--cor2), var(--cor1));
+}
+
+header {
+    background-image: linear-gradient(to right, black, var(--cor4), var(--cor3), var(--cor2) transparent);
+    padding: 30px;
+    color: #13cf61;
+    text-align: center;
+    font-family: 'alien', Arial, Helvetica, sans-serif;
+    
+}
+
+header h1 {
+    padding: 10px;
+    font-size: 3em;
+}
+
+header p {
+    padding: 10px;
+}
+
+nav {
+    background-image: linear-gradient(to right, black, var(--cor4), var(--cor3), var(--cor3), var(--cor2) transparent);
+    padding: 20px;
+    padding-left: 10px;
+    font-family: 'alien', Arial, Helvetica, sans-serif;   
+}
+
+nav a {
+    padding: 10px;
+    color: #13cf61;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    background-color: #13cf61;
+    color: #011526;
+    border-radius: 5px;
+    text-decoration: underline;   
+}
+
+main {
+    background-color: rgba(155, 245, 178, 0.075);
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #13cf61;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+main h1 {
+    font-family: 'alien', Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, black, var(--cor4), var(--cor3), var(--cor3), var(--cor2), transparent);
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, black, var(--cor4), var(--cor3), var(--cor3), var(--cor2), transparent);
+    font-family: 'alien', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main p {
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+}

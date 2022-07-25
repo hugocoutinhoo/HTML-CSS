@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'kitto';
+    src: url('fontes/kitto.otf.otf') format('opentype');
+}
+body {
+    background-color: rgba(107, 214, 107, 0.808);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: rgb(3, 90, 3);
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+    font-family: 'kitto', Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    font-family:'kitto', Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 90, 3);
+    text-shadow: 1px 1px 0px rgba(107, 214, 107, 0.808);
+    color: white;
+}
+
+h2 {
+    color: rgb(2, 126, 2);
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+}
+
+.basico {
+    color: rgb(0, 165, 0);
+    text-shadow: 1px 1px 0px rgba(107, 214, 107, 0.808);
+}
+
+.intermediario {
+    color: rgb(252, 252, 21);
+    text-shadow: 1px 1px 0px rgba(107, 214, 107, 0.808);
+}
+
+.avancado {
+    color: rgb(148, 0, 0);
+    text-shadow: 1px 1px 0px rgba(107, 214, 107, 0.808);
+}
