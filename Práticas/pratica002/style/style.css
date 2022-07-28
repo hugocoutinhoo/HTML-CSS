@@ -27,7 +27,6 @@ header a {
     font-family: var(--fontemenu);
     font-size: 1.3em;
     transition-duration: 0.5s;
-
 }
 header a:hover {
     background-color: rgba(124, 35, 35, 0.808);
