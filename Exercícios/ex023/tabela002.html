@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas2</title>
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -19,8 +23,12 @@
         td,th {
             border: 1px solid black;
             padding: 8px;
-            text-align: center;
-
+            text-align: left;
+        }
+        thead  tr  th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
         thead, tfoot {
             background-color: gray;
@@ -28,6 +36,9 @@
         }
         td.num {
             text-align: right;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -167,5 +178,6 @@
             </tr>
         </tfoot>
     </table>
+
 </body>
 </html>
